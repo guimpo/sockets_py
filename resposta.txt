@@ -1,0 +1,23 @@
+Atividade 1
+server_1 tcp
+server_2 udp
+
+Atividade 2
+pasta 02
+
+Atividade 3
+pasta 03
+
+Atividade 4
+Como o servidor consegue lidar com múltiplas conexões ao mesmo tempo?
+
+
+
+Modifique a comunicação da seguinte maneira:
+• Inverta quem inicia o envio das mensagens;
+• Permita que a troca de mensagens ocorra de forma
+contı́nua e que a conexão seja desfeita apenas quando o
+cliente enviar a mensagem “over”;
+• Não deixe que o servidor receba a conexão com mais do
+que 5 clientes sem mudar as opções passadas para o
+socket.
